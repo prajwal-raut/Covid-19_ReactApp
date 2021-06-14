@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+
+    body{
+        background-color: black;
+    }
+
+    .heading{
+        color: #f5e9ed;
+    }
+    
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+
+    .table tr{
+        margin-bottom: 15px;
+    }
+
+    .table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        padding-left: 15px;
+        font-size: 14px;
+        color: #fea100;
+    }
+    
+}
