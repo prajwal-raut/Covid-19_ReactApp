@@ -19,7 +19,7 @@ Covid-19 live Tracker App tells you how many Covid cases are there in your State
 2 . Install dependencies
 
 ```bash
-  npm install dependency
+  npm install
 ```
 
 3 . Start the server
