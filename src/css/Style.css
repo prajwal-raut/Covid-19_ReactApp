@@ -1,49 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Lato', sans-serif;
-    }
-  
-    .table-container{
-        padding: 0 10%;
-        margin: 40px auto 0;
-    }
-    
-    .heading{
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .table{
-        width: 100%;
-        border-collapse: collapse;
-    }
-    
-    .table thead{
-        background-color: #e91e63;
-        text-transform: uppercase;
-    }
-    
-    .table thead tr th {
-        font-size: 14px;
-        font-weight: 600;
-        color: #ffffff;
-        opacity: 1;
-        padding: 12px;
-        vertical-align: top;
-        border: 1px solid #dee2e685;
-    }
-    
-    .table tbody tr td{
-        font-size: 14px;
-        letter-spacing: 0.35px;
-        font-weight: normal;
-        color: #f1f1f1;
-        background-color: #010a19;
-        padding: 8px;
-        text-align: center;
-        border: 1px solid #dee2e685;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* marquee notification/slide */
+#marq{
+background-color: #b71c1c;
+color: #ffffff;
+}
+
+body {
+  background-color: #010a19;
+}
+
+.table-container {
+  padding: 0 10%;
+  margin: 40px auto 0;
+}
+
+.heading {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  line-height: 83px;
+  text-align: center;
+  background-color: #b71c1c;
+  color: #fff;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #e8e1e1;
+  text-transform: uppercase;
+}
+
+.table thead tr th {
+  font-size: 18px;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid #dee2e685;
+}
+
+.confirmCol {
+  background-color: #6abdff;
+}
+
+.recoverCol {
+  background-color: #b7f28a;
+}
+
+.deathCol {
+  background-color: #fc8281;
+}
+
+/* hover effect */
+
+.stateHover:hover {
+  background-color: #e8e1e1;
+  color: black;
+}
+.confirmHover:hover {
+  background-color: #6abdff;
+  color: black;
+}
+.recoverHover:hover {
+  background-color: #b7f28a;
+  color: black;
+}
+.deathHover:hover {
+  background-color: #fc8281;
+  color: black;
+}
+
+.table tbody tr td {
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  color: #f1f1f1;
+  padding: 16px 0px;
+  text-align: center;
+  border: 1px solid #818a7c;
+}
